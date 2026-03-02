@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-st.set_page_config(page_title="AI Drug Repurposing Portal", page_icon="💊")
+st.set_page_config(page_title="AI Drug Repurposing Portal")
 
-st.title("🧬 AI-Driven Drug Repurposing Portal")
+st.title(" AI-Driven Drug Repurposing Portal")
 st.markdown("### Identifying new uses for existing FDA-approved drugs.")
 
 
