@@ -49,7 +49,7 @@ else:
     df = pd.DataFrame(demo_data)
 
 
-st.sidebar.header("🔍 Search Parameters")
+st.sidebar.header("Search Parameters")
 
 disease_list = sorted(df['Disease'].dropna().unique())
 selected_disease = st.sidebar.selectbox("Select Target Disease", disease_list)
